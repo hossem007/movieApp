@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #222;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,170 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.movie-list{
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  
+  
+}
+
+.movie-card{
+
+  margin: 10px;
+  background-color: rgb(143, 2, 2);
+  padding-left:25px;
+  padding-right:25px;
+  border-radius: 20px;
+  border:solid 2px white;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.9;
+  background-image: url(re3.jpg);
+  background-position: center;
+
+  
+  
+}
+
+.movie-card:hover{
+
+  opacity: 1;
+  box-shadow: 0 5px 4px 0px 30px rgb(255, 255, 255);
+}
+
+.movie-card img{
+  border-radius: 15px;
+  border:solid 2px white;
+  width: 200px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.header-container{
+
+  color: #fff;
+  background: rgb(143, 2, 2);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+  box-shadow: 5px 2px 16px 3px rgb(0 0 0/ 12%);
+  height: 70px;
+  border-bottom: solid 2px #fff;
+  background-image: url(re3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.search-container{
+
+  display: inline;
+  
+  height: 35px;
+  position: relative;
+  border-bottom: solid 2px #fff;
+  
+}
+
+.input1{
+
+  height: 40px;
+  width: 400px;
+  outline: none;
+  border-radius: 10px;
+  border: transparent;
+  font-size: 25px;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-top: -55px;
+ 
+}
+
+.src{
+ 
+ margin-left: 420px;
+ top: 0px;
+
+position: absolute;
+
+margin-top: -8px
+}
+
+.btn{
+  bottom: 5px;
+  position: fixed;
+  left: 15px;
+  height: 35px;
+  width: 150px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: rgb(143, 2, 2);
+  font-size: 20px;
+  font-weight: bold;
+  color:#fff;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.btn:hover{
+
+  opacity: 1;
+}
+
+.form{
+  height: 450px;
+  width: 300px;
+  border-radius: 20px;
+  display: block;
+  background-color: rgb(143, 2, 2);
+  padding: 30px;
+  background-image: url(red2.jpg);
+  background-position: center;
+  color: #fff;
+
+}
+
+.form input{
+
+  width: 300px;
+  height: 30px;
+  margin: 10px 20px 40px 0px;
+  font-size: 15px;
+  outline: none;
+  border: transparent;
+  border-radius: 10px;
+}
+
+.form button{
+
+  margin: 5px;
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  border: black 1px solid;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+
+
+}
+
+.btn-form:hover{
+
+  border: solid 1px #fff;
+}
+
+.our{
+  margin-top: -20px;
+  
 }
